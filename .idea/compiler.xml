@@ -7,15 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bk" />
-      </profile>
-      <profile name="Annotation profile for translate" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-        </processorPath>
         <module name="tr-common" />
         <module name="tr-pojo" />
       </profile>
@@ -26,7 +17,7 @@
       <module name="bk" options="-parameters" />
       <module name="tr-common" options="-parameters" />
       <module name="tr-pojo" options="-parameters" />
-      <module name="translate" options="-parameters" />
+      <module name="translate" options="" />
     </option>
   </component>
 </project>
