@@ -39,7 +39,7 @@ public class ReadController {
 
     @PostMapping("trans")
     public R trans(@RequestParam("var")String var){
-        log.info("开始翻译文本: {}",var);
+        log.info("开始翻译文本commite test: {}",var);
 
         ResponseCreateParams params = ResponseCreateParams.builder()
                 .model("gpt-5.3-codex")
