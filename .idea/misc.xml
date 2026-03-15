@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bk/pom.xml" />
+        <option value="$PROJECT_DIR$/tr-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/tr-common/pom.xml" />
       </list>
     </option>
   </component>
