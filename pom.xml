@@ -8,6 +8,12 @@
         <version>4.0.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>pom</packaging>
+    <modules>
+        <module>bk</module>
+        <module>tr-common</module>
+        <module>tr-pojo</module>
+    </modules>
     <groupId>org.example</groupId>
     <artifactId>translate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -101,6 +107,13 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>org.example.bk.BkApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
