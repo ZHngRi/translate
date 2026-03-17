@@ -54,7 +54,7 @@ public class UserServiceImpl implements UserService {
         newUser.setPassword(userRegisterDTO.getPassword());
         newUser.setCreatedAt(LocalDateTime.now());
 
-        log.info("登录成功{}",newUser);
+        log.info("注册成功{}",newUser);
         userMapper.insert(newUser);
     }
 }
